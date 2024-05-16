@@ -42,11 +42,9 @@ public class OnlineBanking {
                 
 					break;
 				}
-            	
-            }
+	    }
 	}
-
-	private static double getWithDrawAmount(Scanner sc, double Balance) {
+public static double getWithDrawAmount(Scanner sc, double Balance) {
 		// TODO Auto-generated method stub
 		System.out.println("enter the Amount to be WithDraw :");
 		double Amount=sc.nextDouble();
@@ -61,8 +59,7 @@ public class OnlineBanking {
 		
 		return Amount;
 	}
-
-	private static double getDeposit(Scanner sc) {
+public static double getDeposit(Scanner sc) {
 		// TODO Auto-generated method stub
 		System.out.println("enter the Amount to be Deposit");
 		double Amount = sc.nextDouble();
@@ -72,5 +69,4 @@ public class OnlineBanking {
 		    }
 		return Amount;
 	}
-
 }
