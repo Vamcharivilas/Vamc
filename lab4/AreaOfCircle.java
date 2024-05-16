@@ -24,5 +24,9 @@ public class AreaOfCircle {
 	      	Double pi = 3.14;
 	            double a=pi*r*r;
 	  		return a;
-	      	 }
-	}
+	      	
+	      }
+		
+	
+
+}

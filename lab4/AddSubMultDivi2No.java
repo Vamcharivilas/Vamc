@@ -22,5 +22,10 @@ public class AddSubMultDivi2No {
    System.out.println("*************");
    c=a%b;
   System.out.println("Division of "+a+"%"+b+"="+c );
+
+
+
+
+
 }
 }
