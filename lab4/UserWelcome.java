@@ -3,7 +3,6 @@ package functions;
 import java.util.Scanner;
 
 public class UserWelcome {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
@@ -12,8 +11,5 @@ public class UserWelcome {
 		sc.close();
 		String WelcomeMessage=" YOUR MOST Welcome"+Name+"!";
 		System.out.println(WelcomeMessage);
-		
-
-	}
-
+		}
 }
