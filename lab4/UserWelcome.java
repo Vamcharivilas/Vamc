@@ -12,8 +12,5 @@ public class UserWelcome {
 		sc.close();
 		String WelcomeMessage=" YOUR MOST Welcome"+Name+"!";
 		System.out.println(WelcomeMessage);
-		
-
-	}
-
+		}
 }
